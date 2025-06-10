@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_control -- -j8 -l8
+[0.042s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_control -- -j8 -l8
+[0.065s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_control
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/package_run_dependencies/ur_control
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/parent_prefix_path/ur_control
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/ament_prefix_path.sh
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/ament_prefix_path.dsv
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/path.sh
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/path.dsv
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.bash
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.sh
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.zsh
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.dsv
+[0.074s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/package.dsv
+[0.074s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/packages/ur_control
+[0.075s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/cmake/ur_controlConfig.cmake
+[0.075s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/cmake/ur_controlConfig-version.cmake
+[0.075s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/package.xml
+[0.075s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_control

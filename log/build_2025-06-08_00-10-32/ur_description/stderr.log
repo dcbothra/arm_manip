@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/dcbothra2204/arm_manip/src/ur_description/test": No such file or
+  directory.
+
+[0m

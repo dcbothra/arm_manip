@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000314] (-) JobUnselected: {'identifier': 'trac_ik_examples'}
+[0.000334] (-) JobUnselected: {'identifier': 'ur_control'}
+[0.000347] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000358] (-) JobUnselected: {'identifier': 'ur_simulation'}
+[0.000370] (trac_ik_lib) JobQueued: {'identifier': 'trac_ik_lib', 'dependencies': OrderedDict()}
+[0.000384] (trac_ik) JobQueued: {'identifier': 'trac_ik', 'dependencies': OrderedDict([('trac_ik_lib', '/home/dcbothra2204/arm_manip/install/trac_ik_lib'), ('trac_ik_examples', '/home/dcbothra2204/arm_manip/install/trac_ik_examples')])}
+[0.000399] (trac_ik_lib) JobStarted: {'identifier': 'trac_ik_lib'}
+[0.008411] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'cmake'}
+[0.008496] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '/home/dcbothra2204/arm_manip/src/trac_ik/trac_ik_lib', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/trac_ik_lib'], 'cwd': '/home/dcbothra2204/arm_manip/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('OLDPWD', '/home/dcbothra2204/arm_manip/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1661,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6319bca5_0f75_4ac9_ba37_21e3577e0625'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXWN72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.591'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/dcbothra2204/arm_manip/install/ur_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/arm_manip/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble')]), 'shell': False}
+[0.099888] (-) TimerEvent: {}
+[0.124999] (trac_ik_lib) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200015] (-) TimerEvent: {}
+[0.250263] (trac_ik_lib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.259767] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300108] (-) TimerEvent: {}
+[0.322280] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331128] (trac_ik_lib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.331499] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332298] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.336691] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400223] (-) TimerEvent: {}
+[0.409824] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.414999] (trac_ik_lib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.415171] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.415564] (trac_ik_lib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.421418] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500325] (-) TimerEvent: {}
+[0.532149] (trac_ik_lib) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.582361] (trac_ik_lib) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600434] (-) TimerEvent: {}
+[0.609214] (trac_ik_lib) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.618556] (trac_ik_lib) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.620326] (trac_ik_lib) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.630793] (trac_ik_lib) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.641620] (trac_ik_lib) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.669924] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.674243] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.681196] (trac_ik_lib) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.692337] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700530] (-) TimerEvent: {}
+[0.706653] (trac_ik_lib) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.751401] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.753902] (trac_ik_lib) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800636] (-) TimerEvent: {}
+[0.828375] (trac_ik_lib) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.856174] (trac_ik_lib) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.885804] (trac_ik_lib) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.896765] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900726] (-) TimerEvent: {}
+[0.963427] (trac_ik_lib) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.963585] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000863] (-) TimerEvent: {}
+[1.018646] (trac_ik_lib) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.019463] (trac_ik_lib) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.071152] (trac_ik_lib) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.100968] (-) TimerEvent: {}
+[1.105452] (trac_ik_lib) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.172943] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.173728] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.173801] (trac_ik_lib) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.174578] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.175393] (trac_ik_lib) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.176768] (trac_ik_lib) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.186510] (trac_ik_lib) StdoutLine: {'line': b'-- Generating done\n'}
+[1.187470] (trac_ik_lib) StdoutLine: {'line': b'-- Build files have been written to: /home/dcbothra2204/arm_manip/build/trac_ik_lib\n'}
+[1.195347] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[1.195782] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'build'}
+[1.196410] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dcbothra2204/arm_manip/build/trac_ik_lib', '--', '-j8', '-l8'], 'cwd': '/home/dcbothra2204/arm_manip/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('OLDPWD', '/home/dcbothra2204/arm_manip/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1661,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6319bca5_0f75_4ac9_ba37_21e3577e0625'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXWN72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.591'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/dcbothra2204/arm_manip/install/ur_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/arm_manip/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble')]), 'shell': False}
+[1.201025] (-) TimerEvent: {}
+[1.243457] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o\x1b[0m\n'}
+[1.243604] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/kdl_tl.cpp.o\x1b[0m\n'}
+[1.243659] (trac_ik_lib) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o\x1b[0m\n'}
+[1.301165] (-) TimerEvent: {}
+[1.401463] (-) TimerEvent: {}
+[1.501759] (-) TimerEvent: {}
+[1.602021] (-) TimerEvent: {}
+[1.702310] (-) TimerEvent: {}
+[1.802608] (-) TimerEvent: {}
+[1.902920] (-) TimerEvent: {}
+[2.003207] (-) TimerEvent: {}
+[2.103520] (-) TimerEvent: {}
+[2.203877] (-) TimerEvent: {}
+[2.304257] (-) TimerEvent: {}
+[2.404614] (-) TimerEvent: {}
+[2.504923] (-) TimerEvent: {}
+[2.605223] (-) TimerEvent: {}
+[2.705528] (-) TimerEvent: {}
+[2.805818] (-) TimerEvent: {}
+[2.906100] (-) TimerEvent: {}
+[3.006399] (-) TimerEvent: {}
+[3.106701] (-) TimerEvent: {}
+[3.207004] (-) TimerEvent: {}
+[3.307333] (-) TimerEvent: {}
+[3.407644] (-) TimerEvent: {}
+[3.507926] (-) TimerEvent: {}
+[3.608211] (-) TimerEvent: {}
+[3.708503] (-) TimerEvent: {}
+[3.808809] (-) TimerEvent: {}
+[3.909165] (-) TimerEvent: {}
+[4.009513] (-) TimerEvent: {}
+[4.109822] (-) TimerEvent: {}
+[4.210109] (-) TimerEvent: {}
+[4.310419] (-) TimerEvent: {}
+[4.410719] (-) TimerEvent: {}
+[4.511110] (-) TimerEvent: {}
+[4.611409] (-) TimerEvent: {}
+[4.711708] (-) TimerEvent: {}
+[4.812017] (-) TimerEvent: {}
+[4.912320] (-) TimerEvent: {}
+[5.012631] (-) TimerEvent: {}
+[5.112923] (-) TimerEvent: {}
+[5.213202] (-) TimerEvent: {}
+[5.313482] (-) TimerEvent: {}
+[5.413754] (-) TimerEvent: {}
+[5.514026] (-) TimerEvent: {}
+[5.614307] (-) TimerEvent: {}
+[5.714588] (-) TimerEvent: {}
+[5.814882] (-) TimerEvent: {}
+[5.915169] (-) TimerEvent: {}
+[6.015469] (-) TimerEvent: {}
+[6.115766] (-) TimerEvent: {}
+[6.216041] (-) TimerEvent: {}
+[6.316337] (-) TimerEvent: {}
+[6.416630] (-) TimerEvent: {}
+[6.516987] (-) TimerEvent: {}
+[6.617247] (-) TimerEvent: {}
+[6.717532] (-) TimerEvent: {}
+[6.817814] (-) TimerEvent: {}
+[6.918082] (-) TimerEvent: {}
+[7.018379] (-) TimerEvent: {}
+[7.118751] (-) TimerEvent: {}
+[7.219039] (-) TimerEvent: {}
+[7.319347] (-) TimerEvent: {}
+[7.419675] (-) TimerEvent: {}
+[7.519980] (-) TimerEvent: {}
+[7.620249] (-) TimerEvent: {}
+[7.720537] (-) TimerEvent: {}
+[7.820837] (-) TimerEvent: {}
+[7.921225] (-) TimerEvent: {}
+[8.021523] (-) TimerEvent: {}
+[8.121794] (-) TimerEvent: {}
+[8.222046] (-) TimerEvent: {}
+[8.322314] (-) TimerEvent: {}
+[8.422586] (-) TimerEvent: {}
+[8.522845] (-) TimerEvent: {}
+[8.623114] (-) TimerEvent: {}
+[8.723383] (-) TimerEvent: {}
+[8.823728] (-) TimerEvent: {}
+[8.923980] (-) TimerEvent: {}
+[9.024241] (-) TimerEvent: {}
+[9.124522] (-) TimerEvent: {}
+[9.224856] (-) TimerEvent: {}
+[9.325100] (-) TimerEvent: {}
+[9.425390] (-) TimerEvent: {}
+[9.525753] (-) TimerEvent: {}
+[9.626037] (-) TimerEvent: {}
+[9.726340] (-) TimerEvent: {}
+[9.733070] (trac_ik_lib) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtrac_ik_lib.so\x1b[0m\n'}
+[9.826541] (-) TimerEvent: {}
+[9.926914] (-) TimerEvent: {}
+[9.992540] (trac_ik_lib) StdoutLine: {'line': b'[100%] Built target trac_ik_lib\n'}
+[10.000880] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[10.020372] (trac_ik_lib) JobProgress: {'identifier': 'trac_ik_lib', 'progress': 'install'}
+[10.026985] (-) TimerEvent: {}
+[10.028332] (trac_ik_lib) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dcbothra2204/arm_manip/build/trac_ik_lib'], 'cwd': '/home/dcbothra2204/arm_manip/build/trac_ik_lib', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('OLDPWD', '/home/dcbothra2204/arm_manip/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1661,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1661'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6319bca5_0f75_4ac9_ba37_21e3577e0625'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXWN72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.591'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/dcbothra2204/arm_manip/install/ur_description/share'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/arm_manip/build/trac_ik_lib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_description:/opt/ros/humble')]), 'shell': False}
+[10.034845] (trac_ik_lib) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.035102] (trac_ik_lib) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.035289] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh\n'}
+[10.042455] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv\n'}
+[10.050184] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/dual_quaternion.h\n'}
+[10.056787] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp\n'}
+[10.062884] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/math3d.h\n'}
+[10.069770] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp\n'}
+[10.075779] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/trac_ik.hpp\n'}
+[10.081940] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/visibility_control.hpp\n'}
+[10.088328] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib\n'}
+[10.094501] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib\n'}
+[10.101215] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh\n'}
+[10.107787] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv\n'}
+[10.113858] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh\n'}
+[10.120102] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv\n'}
+[10.126125] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash\n'}
+[10.127041] (-) TimerEvent: {}
+[10.132696] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh\n'}
+[10.138975] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh\n'}
+[10.145207] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv\n'}
+[10.151953] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/package.dsv\n'}
+[10.158597] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib\n'}
+[10.165382] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.172104] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.178159] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake\n'}
+[10.184578] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake\n'}
+[10.190966] (trac_ik_lib) StdoutLine: {'line': b'-- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/package.xml\n'}
+[10.197061] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/lib/libtrac_ik_lib.so\n'}
+[10.199368] (trac_ik_lib) StdoutLine: {'line': b'-- Set runtime path of "/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib/libtrac_ik_lib.so" to ""\n'}
+[10.199496] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake\n'}
+[10.199541] (trac_ik_lib) StdoutLine: {'line': b'-- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake\n'}
+[10.201122] (trac_ik_lib) CommandEnded: {'returncode': 0}
+[10.227137] (-) TimerEvent: {}
+[10.246909] (trac_ik_lib) JobEnded: {'identifier': 'trac_ik_lib', 'rc': 0}
+[10.247655] (trac_ik) JobStarted: {'identifier': 'trac_ik'}
+[10.251335] (trac_ik) JobEnded: {'identifier': 'trac_ik', 'rc': 1}
+[10.261990] (-) EventReactorShutdown: {}

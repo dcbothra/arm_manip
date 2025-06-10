@@ -1,0 +1,10 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/dcbothra2204/arm_manip/src/ur_simulation/rviz": No such file or
+  directory.
+
+[0m
+-- Install configuration: ""
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/rviz.launch.py
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/ign_gazebo.launch.py

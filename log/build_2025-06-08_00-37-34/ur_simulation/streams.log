@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_simulation -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_simulation
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.435s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.456s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.456s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[0.456s]   asked CMake to find a package configuration file provided by "launch", but
+[0.456s]   CMake did not find one.
+[0.456s] 
+[0.456s]   Could not find a package configuration file provided by "launch" with any
+[0.456s]   of the following names:
+[0.456s] 
+[0.456s]     launchConfig.cmake
+[0.456s]     launch-config.cmake
+[0.456s] 
+[0.456s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[0.456s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[0.456s]   provides a separate development package or SDK, be sure it has been
+[0.456s]   installed.
+[0.456s] 
+[0.457s] [0m
+[0.457s] -- Configuring incomplete, errors occurred!
+[0.457s] See also "/home/dcbothra2204/arm_manip/build/ur_simulation/CMakeFiles/CMakeOutput.log".
+[0.459s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_simulation -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_simulation

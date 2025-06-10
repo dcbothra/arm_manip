@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dcbothra2204/arm_manip/build/ur_description
+-- Install configuration: ""
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/initial_positions.yaml
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/ur10e
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/launch
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/launch/robot_view.launch.py
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/rviz
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/rviz/view_robot.rviz
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/inc
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro

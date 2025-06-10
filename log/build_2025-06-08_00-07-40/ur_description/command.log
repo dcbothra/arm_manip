@@ -1,0 +1,2 @@
+Invoking command in '/home/dcbothra2204/arm_manip/build/ur_description': /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_description
+Invoked command in '/home/dcbothra2204/arm_manip/build/ur_description' returned '1': /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_description

@@ -1,0 +1,87 @@
+[0.009s] Invoking command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/trac_ik/trac_ik_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/trac_ik_lib
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.582s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.618s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.620s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.630s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.641s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.674s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.751s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.754s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.828s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.856s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.896s] -- Looking for pthread.h
+[0.963s] -- Looking for pthread.h - found
+[0.963s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.019s] -- Found Threads: TRUE  
+[1.071s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.105s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.173s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.173s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.173s] -- Configured cpplint exclude dirs and/or files: 
+[1.174s] -- Added test 'lint_cmake' to check CMake code style
+[1.175s] -- Added test 'xmllint' to check XML markup files
+[1.176s] -- Configuring done
+[1.186s] -- Generating done
+[1.187s] -- Build files have been written to: /home/dcbothra2204/arm_manip/build/trac_ik_lib
+[1.195s] Invoked command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/trac_ik/trac_ik_lib -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/trac_ik_lib
+[1.196s] Invoking command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/trac_ik_lib -- -j8 -l8
+[1.243s] [ 75%] [32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/trac_ik.cpp.o[0m
+[1.243s] [ 75%] [32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/kdl_tl.cpp.o[0m
+[1.243s] [ 75%] [32mBuilding CXX object CMakeFiles/trac_ik_lib.dir/src/nlopt_ik.cpp.o[0m
+[9.733s] [100%] [32m[1mLinking CXX shared library libtrac_ik_lib.so[0m
+[9.992s] [100%] Built target trac_ik_lib
+[10.001s] Invoked command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/trac_ik_lib -- -j8 -l8
+[10.029s] Invoking command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/trac_ik_lib
+[10.035s] -- Install configuration: ""
+[10.035s] -- Execute custom install script
+[10.035s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.sh
+[10.042s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/library_path.dsv
+[10.050s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/dual_quaternion.h
+[10.056s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/kdl_tl.hpp
+[10.063s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/math3d.h
+[10.069s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/nlopt_ik.hpp
+[10.075s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/trac_ik.hpp
+[10.082s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/include/trac_ik/visibility_control.hpp
+[10.088s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/package_run_dependencies/trac_ik_lib
+[10.094s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/parent_prefix_path/trac_ik_lib
+[10.101s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.sh
+[10.107s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/ament_prefix_path.dsv
+[10.114s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/path.sh
+[10.120s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/environment/path.dsv
+[10.126s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.bash
+[10.132s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.sh
+[10.139s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.zsh
+[10.145s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/local_setup.dsv
+[10.152s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/package.dsv
+[10.158s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/ament_index/resource_index/packages/trac_ik_lib
+[10.165s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_targets-extras.cmake
+[10.172s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.178s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig.cmake
+[10.184s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/trac_ik_libConfig-version.cmake
+[10.191s] -- Symlinking: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/package.xml
+[10.197s] -- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/lib/libtrac_ik_lib.so
+[10.199s] -- Set runtime path of "/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib/libtrac_ik_lib.so" to ""
+[10.199s] -- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport.cmake
+[10.199s] -- Installing: /home/dcbothra2204/arm_manip/install/trac_ik_lib/share/trac_ik_lib/cmake/export_trac_ik_libExport-noconfig.cmake
+[10.201s] Invoked command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/trac_ik_lib

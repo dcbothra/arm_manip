@@ -1,0 +1,15 @@
+/home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/package_run_dependencies/ur_control
+/home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/parent_prefix_path/ur_control
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/ament_prefix_path.sh
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/ament_prefix_path.dsv
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/path.sh
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/environment/path.dsv
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.bash
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.sh
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.zsh
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/local_setup.dsv
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/package.dsv
+/home/dcbothra2204/arm_manip/install/ur_control/share/ament_index/resource_index/packages/ur_control
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/cmake/ur_controlConfig.cmake
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/cmake/ur_controlConfig-version.cmake
+/home/dcbothra2204/arm_manip/install/ur_control/share/ur_control/package.xml

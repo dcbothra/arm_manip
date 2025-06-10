@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur_description
+    relative_path: build/ur.urdf
+  srdf:
+    relative_path: config/ur.srdf
+  package_settings:
+    author_name: Devchand Bothra
+    author_email: bothradevchand@gmail.com
+    generated_timestamp: 1749414739
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

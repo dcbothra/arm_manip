@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_simulation -- -j8 -l8
+[0.056s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_simulation -- -j8 -l8
+[0.079s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_simulation
+[0.084s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch
+[0.085s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/moveit_ign.launch.py
+[0.085s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/rviz.launch.py
+[0.085s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/ign_gazebo.launch.py
+[0.085s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/worlds
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/worlds/empty.sdf
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/package_run_dependencies/ur_simulation
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/parent_prefix_path/ur_simulation
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.sh
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.dsv
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.bash
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.sh
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.zsh
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.dsv
+[0.087s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.dsv
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/packages/ur_simulation
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig.cmake
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig-version.cmake
+[0.087s] -- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.xml
+[0.088s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_simulation

@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_simulation -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_simulation
+[0.019s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.183s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.183s] -- Added test 'lint_cmake' to check CMake code style
+[0.184s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.185s] -- Added test 'xmllint' to check XML markup files
+[0.186s] -- Configuring done
+[0.187s] -- Generating done
+[0.188s] -- Build files have been written to: /home/dcbothra2204/arm_manip/build/ur_simulation
+[0.191s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/arm_manip/src/ur_simulation -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/arm_manip/install/ur_simulation
+[0.191s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_simulation -- -j8 -l8
+[0.221s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/ur_simulation -- -j8 -l8
+[0.240s] Invoking command in '/home/dcbothra2204/arm_manip/build/ur_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_simulation
+[0.246s] -- Install configuration: ""
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/robot_rviz.launch.py
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/rviz
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/rviz/view_robot.rviz
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/package_run_dependencies/ur_simulation
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/parent_prefix_path/ur_simulation
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.sh
+[0.247s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.dsv
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.sh
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.dsv
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.bash
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.sh
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.zsh
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.dsv
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.dsv
+[0.248s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/packages/ur_simulation
+[0.249s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig.cmake
+[0.249s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig-version.cmake
+[0.249s] -- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.xml
+[0.251s] Invoked command in '/home/dcbothra2204/arm_manip/build/ur_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/ur_simulation

@@ -1,0 +1,1 @@
+/home/dcbothra2204/arm_manip/build/trac_ik_examples/ament_cmake_environment_hooks/local_setup.sh

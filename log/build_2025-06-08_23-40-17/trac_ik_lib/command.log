@@ -1,0 +1,4 @@
+Invoking command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/trac_ik_lib -- -j8 -l8
+Invoked command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/arm_manip/build/trac_ik_lib -- -j8 -l8
+Invoking command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/trac_ik_lib
+Invoked command in '/home/dcbothra2204/arm_manip/build/trac_ik_lib' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/arm_manip/build/trac_ik_lib

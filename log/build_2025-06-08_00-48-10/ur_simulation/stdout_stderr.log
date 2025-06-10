@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch
+-- Installing: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/gazebo.launch.py
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/launch/robot_rviz.launch.py
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/rviz
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/rviz/view_robot.rviz
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/package_run_dependencies/ur_simulation
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/parent_prefix_path/ur_simulation
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.sh
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/environment/path.dsv
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.bash
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.sh
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.zsh
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/local_setup.dsv
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.dsv
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ament_index/resource_index/packages/ur_simulation
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig.cmake
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/cmake/ur_simulationConfig-version.cmake
+-- Up-to-date: /home/dcbothra2204/arm_manip/install/ur_simulation/share/ur_simulation/package.xml
